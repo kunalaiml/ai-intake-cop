@@ -169,7 +169,14 @@ For now, leave everything as-is. You'll fill in Google credentials in Lab 2 and 
 ```bash
 docker compose up -d
 ```
+```
+What docker compose up -d does
 
+docker compose reads your docker-compose.yml file and manages multiple containers as one unit.
+
+up — create and start all the services defined in the file
+-d — "detached" mode, meaning containers run in the background (your terminal is free)
+```
 First run downloads ~4 GB of images. **This takes 5–15 minutes on a fresh laptop.** While it downloads, read ahead in the lab cards.
 
 Watch the progress:
